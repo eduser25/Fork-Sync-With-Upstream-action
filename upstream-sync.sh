@@ -1,6 +1,7 @@
 #!/bin/sh
 
 set -e
+set -x
 # do not quote GIT_PULL_ARGS or GIT_*_ARGS. As they may contain
 # more than one argument.
 
